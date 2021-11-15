@@ -1816,7 +1816,7 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@*":
+"@types/jest@*", "@types/jest@^27.0.2":
   "integrity" "sha1-rDg8TUqt3Sm78rkW2NEFwwSl/Nc="
   "resolved" "https://seismic.jfrog.io/seismic/api/npm/npm/@types/jest/-/jest-27.0.2.tgz"
   "version" "27.0.2"
@@ -1844,7 +1844,7 @@
   "resolved" "https://seismic.jfrog.io/seismic/api/npm/npm/@types/minimist/-/minimist-1.2.2.tgz"
   "version" "1.2.2"
 
-"@types/node@*":
+"@types/node@*", "@types/node@^16.11.7":
   "integrity" "sha1-NoIJRQYTJpeMQqAeVrYc0iPf3EI="
   "resolved" "https://seismic.jfrog.io/seismic/api/npm/npm/@types/node/-/node-16.11.7.tgz"
   "version" "16.11.7"
@@ -1864,10 +1864,31 @@
   "resolved" "https://seismic.jfrog.io/seismic/api/npm/npm/@types/prettier/-/prettier-2.4.2.tgz"
   "version" "2.4.2"
 
+"@types/prop-types@*":
+  "integrity" "sha1-/PcgXCXf95Xuea8eMNosl5CAjxE="
+  "resolved" "https://seismic.jfrog.io/seismic/api/npm/npm/@types/prop-types/-/prop-types-15.7.4.tgz"
+  "version" "15.7.4"
+
 "@types/q@^1.5.1":
   "integrity" "sha1-daKo59irSyMEFFBdkjNdHctTpt8="
   "resolved" "https://seismic.jfrog.io/seismic/api/npm/npm/@types/q/-/q-1.5.5.tgz"
   "version" "1.5.5"
+
+"@types/react-dom@^17.0.11":
+  "integrity" "sha1-4ercPF6GvbX3aE4AJ0riKOe8xGY="
+  "resolved" "https://seismic.jfrog.io/seismic/api/npm/npm/@types/react-dom/-/react-dom-17.0.11.tgz"
+  "version" "17.0.11"
+  dependencies:
+    "@types/react" "*"
+
+"@types/react@*", "@types/react@^17.0.34":
+  "integrity" "sha1-eXtm01m2kuPxmZG2sH5LDHBsAQI="
+  "resolved" "https://seismic.jfrog.io/seismic/api/npm/npm/@types/react/-/react-17.0.34.tgz"
+  "version" "17.0.34"
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    "csstype" "^3.0.2"
 
 "@types/resolve@0.0.8":
   "integrity" "sha1-8mB00jjgJlnjI84aE9BB7uKA4ZQ="
@@ -1875,6 +1896,11 @@
   "version" "0.0.8"
   dependencies:
     "@types/node" "*"
+
+"@types/scheduler@*":
+  "integrity" "sha1-GmL4lSVyPd4kuhsBsJK/XfitTTk="
+  "resolved" "https://seismic.jfrog.io/seismic/api/npm/npm/@types/scheduler/-/scheduler-0.16.2.tgz"
+  "version" "0.16.2"
 
 "@types/source-list-map@*":
   "integrity" "sha1-AHiDYGP/rxdBI0m7o2QIfgrALsk="
@@ -4079,6 +4105,11 @@
   "version" "2.3.0"
   dependencies:
     "cssom" "~0.3.6"
+
+"csstype@^3.0.2":
+  "integrity" "sha1-ZBCvMbJr0FIJM9AsvGT86c4/vws="
+  "resolved" "https://seismic.jfrog.io/seismic/api/npm/npm/csstype/-/csstype-3.0.9.tgz"
+  "version" "3.0.9"
 
 "cyclist@^1.0.1":
   "integrity" "sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk="
@@ -11559,6 +11590,11 @@
   "integrity" "sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c="
   "resolved" "https://seismic.jfrog.io/seismic/api/npm/npm/typedarray/-/typedarray-0.0.6.tgz"
   "version" "0.0.6"
+
+"typescript@^3.2.1 || ^4", "typescript@^4.4.4", "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta":
+  "integrity" "sha1-LNAaGh8WBwTTEB/VpY/w+fy4Aww="
+  "resolved" "https://seismic.jfrog.io/seismic/api/npm/npm/typescript/-/typescript-4.4.4.tgz"
+  "version" "4.4.4"
 
 "unbox-primitive@^1.0.1":
   "integrity" "sha1-CF4hViXsMWJXTciFmr7nilmxRHE="
