@@ -5,11 +5,8 @@ import DirectoryComponent from "../../components/directory-component/directory-c
 function HomepageComponent(props) {
     return (
         <div className='homepage'>
-
             <DirectoryComponent/>
-
         </div>
-
     );
 }
 
