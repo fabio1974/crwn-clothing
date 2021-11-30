@@ -44,17 +44,14 @@ class DirectoryComponent extends Component {
         ]
     }
 
-    constructor(props: any) {
-        super(props);
-    }
 
 
     render() {
         return (
                 <div className='directory-menu'>
                     {
-                        this.state.sections.map(({title,imageUrl,id, size})=>(
-                            <MenuItemComponent key={id} title={title} image={imageUrl} size={size}/>
+                        this.state.sections.map(({imageUrl,id,...props })=>(
+                            <MenuItemComponent key={id} image={imageUrl} {...props} />
                         ))
                     }
                 </div>

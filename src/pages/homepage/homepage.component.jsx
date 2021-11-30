@@ -1,8 +1,10 @@
 import React from 'react';
 import './homepage.styles.scss'
 import DirectoryComponent from "../../components/directory-component/directory-component";
+import {Link} from "react-router-dom";
 
-function HomepageComponent(props) {
+const HomepageComponent = props => {
+
     return (
         <div className='homepage'>
             <DirectoryComponent/>
@@ -10,4 +12,4 @@ function HomepageComponent(props) {
     );
 }
 
-export default HomepageComponent;
+export default HomepageComponent ;
