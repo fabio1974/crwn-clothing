@@ -3,6 +3,7 @@ import './App.css';
 import HomePage from "./pages/homepage/homepage.component";
 import {Route, Routes} from "react-router-dom";
 import HatsComponent from "./pages/hats/hats-component/hats-component";
+import ShopComponent from "./pages/shop-component/shop-component";
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
 
         <Routes>
             <Route element={<HomePage />} path='/'/>
-            <Route element={<HatsComponent />} path='/hats'/>
+            <Route element={<ShopComponent />} path='/shop'/>
         </Routes>
 
   );

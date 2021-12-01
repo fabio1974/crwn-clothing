@@ -1,8 +1,8 @@
 import React from 'react';
 
-export type HatsComponentProps = {}
 
-function HatsComponent(props: HatsComponentProps) {
+
+function HatsComponent(props) {
     return (<div className="hats-component">Hats</div>);
 }
 
