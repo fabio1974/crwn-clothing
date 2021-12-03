@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './_collection-item-component.scss'
 
 export default function CollectionItemComponent({name,price,imageUrl}) {
@@ -16,4 +15,3 @@ export default function CollectionItemComponent({name,price,imageUrl}) {
         </div>
     );
 }
-
