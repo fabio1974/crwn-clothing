@@ -5,6 +5,7 @@ import {Route, Routes} from "react-router-dom";
 import HatsComponent from "./pages/hats/hats-component/hats-component";
 import ShopComponent from "./pages/shop-component/shop-component";
 import HeaderComponent from "./components/header-component/header-component";
+import SigninSignupComponent from "./pages/sigin-signup-component/signin-signup-component";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
             <Routes>
                 <Route element={<HomePage/>} path='/'/>
                 <Route element={<ShopComponent/>} path='/shop'/>
+                <Route element={<SigninSignupComponent/>} path='/signIn'/>
             </Routes>
         </Fragment>
     );

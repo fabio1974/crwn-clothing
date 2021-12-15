@@ -15,6 +15,7 @@ export default function HeaderComponent(props) {
             <div className={'options'}>
                 <Link className={'option'} to={'/shop'}>SHOP</Link>
                 <Link className={'option'} to={'/shop'}>CONTACT</Link>
+                <Link className={'option'} to={'/signIn'}>SIGN IN</Link>
             </div>
         </div>
     );
