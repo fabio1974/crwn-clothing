@@ -34,7 +34,7 @@ class App extends React.Component {
     render() {
         return (
             <Fragment>
-                <HeaderComponent/>
+                <HeaderComponent currentUser={this.state.currentUser} />
                 <Routes>
                     <Route element={<HomePage/>} path='/'/>
                     <Route element={<ShopComponent/>} path='/shop'/>
